@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Fondo gris claro */
+  color: #333; /* Color del texto */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center;     /* Centra el contenido verticalmente */
+  height: 100vh;           /* Ocupa toda la altura de la pantalla */
+}
+
+/* Estilo para el contenedor "jo" */
+.jo {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffffff; /* Fondo blanco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Estilo para las imágenes */
+img {
+  border-radius: 10px; /* Bordes redondeados en las imágenes */
+  margin-bottom: 20px; /* Espacio entre las imágenes */
+  transition: transform 0.3s ease-in-out; /* Efecto de transición en hover */
+}
+
+/* Efecto al pasar el ratón sobre las imágenes */
+img:hover {
+  transform: scale(1.05); /* Aumenta el tamaño ligeramente en hover */
+}
+
+/* Estilo para el enlace */
+a {
+  text-decoration: none;
+  color: #333; /* Color del texto del enlace */
+  font-size: 18px;
+}
+
+a:hover {
+  color: #007BFF; /* Cambia el color al pasar el ratón */
+}
